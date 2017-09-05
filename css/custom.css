@@ -1,0 +1,28 @@
+/* your styles go here */
+
+.box-image-text .image {
+  min-height: 200px;
+  max-height: 200px;
+}
+
+.box-simple {
+  min-height: 230px;
+}
+
+#post-content img {
+  max-width: 100%;
+}
+
+#post-content img.center {
+  margin: 0 auto;
+}
+
+#post-content img.left {
+  float: left;
+  margin: 30px 30px 30px 0;
+}
+
+#post-content img.right {
+  float: right;
+  margin: 30px 0px 30px 30px;
+}
