@@ -2,42 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Domenic Santangelo</title>
-    <link>https://example.org/</link>
+    <link>/</link>
     <description>Recent content on Domenic Santangelo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2017, Domenic Santangelo; all rights reserved.</copyright>
     <lastBuildDate>Mon, 28 Mar 2016 21:21:00 -0700</lastBuildDate>
     
-	<atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Use Marketo Forms 2.0 API To Populate Fields</title>
-      <link>https://example.org/blog/2016/03/28/use-marketo-forms-2-0-api-to-populate-fields/</link>
+      <link>/blog/2016/03/28/use-marketo-forms-2-0-api-to-populate-fields/</link>
       <pubDate>Mon, 28 Mar 2016 21:21:00 -0700</pubDate>
       
-      <guid>https://example.org/blog/2016/03/28/use-marketo-forms-2-0-api-to-populate-fields/</guid>
+      <guid>/blog/2016/03/28/use-marketo-forms-2-0-api-to-populate-fields/</guid>
       <description>Occasionally we want to populate Marketo fields with values we calculate on our side. Perhaps advanced UTM handling, custom Salesforce fields, etc. The Marketo Forms 2.0 API makes this pretty easy. Most of what you need to know lives on this documentation page, but I will give you a couple tips you might not otherwise know.
 You can populate UTM codes automatically&amp;hellip; &amp;hellip;but think it through. You can have Marketo autopopulate your utm values from the query string in the URL, but what if a user navigates to another page?</description>
     </item>
     
     <item>
       <title>Interleaving Ad-hoc Tasks in a Scrum Team: Fastpass</title>
-      <link>https://example.org/blog/2015/12/18/interleaving-ad-hoc-tasks-in-a-scrum-team-fast-pass/</link>
+      <link>/blog/2015/12/18/interleaving-ad-hoc-tasks-in-a-scrum-team-fast-pass/</link>
       <pubDate>Fri, 18 Dec 2015 21:32:51 -0700</pubDate>
       
-      <guid>https://example.org/blog/2015/12/18/interleaving-ad-hoc-tasks-in-a-scrum-team-fast-pass/</guid>
+      <guid>/blog/2015/12/18/interleaving-ad-hoc-tasks-in-a-scrum-team-fast-pass/</guid>
       <description>In theory, full agile/scrum with two-week sprints is a major boon for everyone. Engineering teams agree to what exactly is expected of them, and the business agrees on when to expect their asks to be complete. Reality is of course never quite that simple.
 One of the core tenets of scrum is that you don&amp;rsquo;t accept a task into your sprint unless it is fully spec&amp;rsquo;d and completable. For instance, if you get a task to change the text color on the home page, but the new color is not defined, you can&amp;rsquo;t accept that task into your sprint because without that color the task is impossible to finish.</description>
     </item>
     
     <item>
       <title>Migrate from Jekyll</title>
-      <link>https://example.org/blog/2015/10/10/migrate-from-jekyll/</link>
+      <link>/blog/2015/10/10/migrate-from-jekyll/</link>
       <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
       
-      <guid>https://example.org/blog/2015/10/10/migrate-from-jekyll/</guid>
+      <guid>/blog/2015/10/10/migrate-from-jekyll/</guid>
       <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
 ▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
 ▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
@@ -45,20 +45,20 @@ One of the core tenets of scrum is that you don&amp;rsquo;t accept a task into y
     
     <item>
       <title>Contact</title>
-      <link>https://example.org/contact/</link>
+      <link>/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/contact/</guid>
+      <guid>/contact/</guid>
       <description>We are here to help you Are you curious about something? Do you have some kind of problem with our products? As am hastily invited settled at limited civilly fortune me. Really spring in extent an by. Judge but built gay party world. Of so am he remember although required. Bachelor unpacked be advanced at. Confined in declared marianne is vicinity.
 Please feel free to contact us, our customer service center is working for you 24&amp;frasl;7.</description>
     </item>
     
     <item>
       <title>FAQ</title>
-      <link>https://example.org/faq/</link>
+      <link>/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/faq/</guid>
+      <guid>/faq/</guid>
       <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
 1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER? Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</description>
     </item>

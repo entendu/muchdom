@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Domenic Santangelo</title>
-    <link>https://example.org/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on Domenic Santangelo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2017, Domenic Santangelo; all rights reserved.</copyright>
     
-	<atom:link href="https://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Lorem</title>
-      <link>https://example.org/categories/lorem/</link>
+      <link>/categories/lorem/</link>
       <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
       
-      <guid>https://example.org/categories/lorem/</guid>
+      <guid>/categories/lorem/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Programming</title>
-      <link>https://example.org/categories/programming/</link>
+      <link>/categories/programming/</link>
       <pubDate>Mon, 28 Mar 2016 21:21:00 -0700</pubDate>
       
-      <guid>https://example.org/categories/programming/</guid>
+      <guid>/categories/programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Project Management</title>
-      <link>https://example.org/categories/project-management/</link>
+      <link>/categories/project-management/</link>
       <pubDate>Fri, 18 Dec 2015 21:32:51 -0700</pubDate>
       
-      <guid>https://example.org/categories/project-management/</guid>
+      <guid>/categories/project-management/</guid>
       <description></description>
     </item>
     

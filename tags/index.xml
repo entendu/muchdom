@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Domenic Santangelo</title>
-    <link>https://example.org/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Domenic Santangelo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2017, Domenic Santangelo; all rights reserved.</copyright>
     <lastBuildDate>Fri, 18 Dec 2015 21:32:51 -0700</lastBuildDate>
     
-	<atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Agile</title>
-      <link>https://example.org/tags/agile/</link>
+      <link>/tags/agile/</link>
       <pubDate>Fri, 18 Dec 2015 21:32:51 -0700</pubDate>
       
-      <guid>https://example.org/tags/agile/</guid>
+      <guid>/tags/agile/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Drupal</title>
-      <link>https://example.org/tags/drupal/</link>
+      <link>/tags/drupal/</link>
       <pubDate>Mon, 28 Mar 2016 21:21:00 -0700</pubDate>
       
-      <guid>https://example.org/tags/drupal/</guid>
+      <guid>/tags/drupal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ipsum</title>
-      <link>https://example.org/tags/ipsum/</link>
+      <link>/tags/ipsum/</link>
       <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
       
-      <guid>https://example.org/tags/ipsum/</guid>
+      <guid>/tags/ipsum/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Marketing</title>
-      <link>https://example.org/tags/marketing/</link>
+      <link>/tags/marketing/</link>
       <pubDate>Mon, 28 Mar 2016 21:21:00 -0700</pubDate>
       
-      <guid>https://example.org/tags/marketing/</guid>
+      <guid>/tags/marketing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Marketo</title>
-      <link>https://example.org/tags/marketo/</link>
+      <link>/tags/marketo/</link>
       <pubDate>Mon, 28 Mar 2016 21:21:00 -0700</pubDate>
       
-      <guid>https://example.org/tags/marketo/</guid>
+      <guid>/tags/marketo/</guid>
       <description></description>
     </item>
     

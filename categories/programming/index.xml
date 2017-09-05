@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programming on Domenic Santangelo</title>
-    <link>https://example.org/categories/programming/</link>
+    <link>/categories/programming/</link>
     <description>Recent content in Programming on Domenic Santangelo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2017, Domenic Santangelo; all rights reserved.</copyright>
     <lastBuildDate>Mon, 28 Mar 2016 21:21:00 -0700</lastBuildDate>
     
-	<atom:link href="https://example.org/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/programming/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Use Marketo Forms 2.0 API To Populate Fields</title>
-      <link>https://example.org/blog/2016/03/28/use-marketo-forms-2-0-api-to-populate-fields/</link>
+      <link>/blog/2016/03/28/use-marketo-forms-2-0-api-to-populate-fields/</link>
       <pubDate>Mon, 28 Mar 2016 21:21:00 -0700</pubDate>
       
-      <guid>https://example.org/blog/2016/03/28/use-marketo-forms-2-0-api-to-populate-fields/</guid>
+      <guid>/blog/2016/03/28/use-marketo-forms-2-0-api-to-populate-fields/</guid>
       <description>Occasionally we want to populate Marketo fields with values we calculate on our side. Perhaps advanced UTM handling, custom Salesforce fields, etc. The Marketo Forms 2.0 API makes this pretty easy. Most of what you need to know lives on this documentation page, but I will give you a couple tips you might not otherwise know.
 You can populate UTM codes automatically&amp;hellip; &amp;hellip;but think it through. You can have Marketo autopopulate your utm values from the query string in the URL, but what if a user navigates to another page?</description>
     </item>

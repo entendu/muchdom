@@ -3,95 +3,95 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://example.org/blog/2016/03/28/use-marketo-forms-2-0-api-to-populate-fields/</loc>
+    <loc>/blog/2016/03/28/use-marketo-forms-2-0-api-to-populate-fields/</loc>
     <lastmod>2016-03-28T21:21:00-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/blog/2015/12/18/interleaving-ad-hoc-tasks-in-a-scrum-team-fast-pass/</loc>
+    <loc>/blog/2015/12/18/interleaving-ad-hoc-tasks-in-a-scrum-team-fast-pass/</loc>
     <lastmod>2015-12-18T21:32:51-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/blog/2015/10/10/migrate-from-jekyll/</loc>
+    <loc>/blog/2015/10/10/migrate-from-jekyll/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/tags/agile/</loc>
-    <lastmod>2015-12-18T21:32:51-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.org/blog/</loc>
-    <lastmod>2016-03-28T21:21:00-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.org/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.org/contact/</loc>
-  </url>
-  
-  <url>
-    <loc>https://example.org/</loc>
-    <lastmod>2016-03-28T21:21:00-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.org/tags/drupal/</loc>
-    <lastmod>2016-03-28T21:21:00-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.org/faq/</loc>
-  </url>
-  
-  <url>
-    <loc>https://example.org/tags/ipsum/</loc>
-    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.org/categories/lorem/</loc>
-    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.org/tags/marketing/</loc>
-    <lastmod>2016-03-28T21:21:00-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.org/tags/marketo/</loc>
-    <lastmod>2016-03-28T21:21:00-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.org/categories/programming/</loc>
-    <lastmod>2016-03-28T21:21:00-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.org/categories/project-management/</loc>
+    <loc>/tags/agile/</loc>
     <lastmod>2015-12-18T21:32:51-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/tags/</loc>
+    <loc>/blog/</loc>
+    <lastmod>2016-03-28T21:21:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2016-03-28T21:21:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/drupal/</loc>
+    <lastmod>2016-03-28T21:21:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/faq/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/ipsum/</loc>
+    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/lorem/</loc>
+    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/marketing/</loc>
+    <lastmod>2016-03-28T21:21:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/marketo/</loc>
+    <lastmod>2016-03-28T21:21:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/programming/</loc>
+    <lastmod>2016-03-28T21:21:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/project-management/</loc>
+    <lastmod>2015-12-18T21:32:51-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
     <lastmod>2015-12-18T21:32:51-07:00</lastmod>
     <priority>0</priority>
   </url>
