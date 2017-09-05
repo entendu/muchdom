@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2017, Domenic Santangelo; all rights reserved.</copyright>
-    <lastBuildDate>Mon, 28 Mar 2016 21:21:00 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 22 Jul 2017 20:05:38 -0700</lastBuildDate>
     
 	<atom:link href="/categories/programming/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Building The Magento Imagine 2015 Site</title>
+      <link>/blog/2017/07/22/building-the-magento-imagine-2015-site/</link>
+      <pubDate>Sat, 22 Jul 2017 20:05:38 -0700</pubDate>
+      
+      <guid>/blog/2017/07/22/building-the-magento-imagine-2015-site/</guid>
+      <description>How we built the Imagine 2015 site Originally published Feb 26, 2015 on Medium.
+Imagine is Magento and eBay Enterprise’s premier eCommerce event held every year in Las Vegas. It’s an incredible event that many eCommerce merchants, consultants and developers look forward to year after year. At Imagine, people network with merchants, partners, developers, digital industry experts, and open source enthusiasts. We put a great deal of time and effort into making Imagine a spectacular and useful event, and an event of this magnitude needs a website to match.</description>
+    </item>
     
     <item>
       <title>Use Marketo Forms 2.0 API To Populate Fields</title>
@@ -20,6 +30,17 @@
       <guid>/blog/2016/03/28/use-marketo-forms-2-0-api-to-populate-fields/</guid>
       <description>Occasionally we want to populate Marketo fields with values we calculate on our side. Perhaps advanced UTM handling, custom Salesforce fields, etc. The Marketo Forms 2.0 API makes this pretty easy. Most of what you need to know lives on this documentation page, but I will give you a couple tips you might not otherwise know.
 You can populate UTM codes automatically&amp;hellip; &amp;hellip;but think it through. You can have Marketo autopopulate your utm values from the query string in the URL, but what if a user navigates to another page?</description>
+    </item>
+    
+    <item>
+      <title>How To Use Apache&#39;s Proxy for Drupal&#39;s Files Directory</title>
+      <link>/blog/2010/12/01/how-to-use-apaches-proxy-drupals-files-directory/</link>
+      <pubDate>Wed, 01 Dec 2010 21:09:47 -0700</pubDate>
+      
+      <guid>/blog/2010/12/01/how-to-use-apaches-proxy-drupals-files-directory/</guid>
+      <description>Drupal&amp;rsquo;s files directory can get enormous, and it&amp;rsquo;s best not to keep it in version control. Here&amp;rsquo;s a way to use Apache&amp;rsquo;s proxy module to point your local environment directly to your dev/live site&amp;rsquo;s files directory so you don&amp;rsquo;t have to download it.
+In your httpd.conf:
+ProxyRequests On ProxyVia On &amp;lt;Proxy *&amp;gt; Order deny,allow Deny from all Allow from localhost Allow from all &amp;lt;/Proxy&amp;gt; &amp;lt;Location /sites/default/files/imagecache/&amp;gt; ProxyPass http://dev.yoursite.com/sites/default/files/imagecache/ &amp;lt;/Location&amp;gt;  Of course you&amp;rsquo;ll want to tailor it to your needs; maybe you want only one imagecache preset proxied, or just one directory specifically on one local host.</description>
     </item>
     
   </channel>

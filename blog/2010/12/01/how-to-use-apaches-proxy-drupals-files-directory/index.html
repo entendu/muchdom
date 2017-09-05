@@ -6,7 +6,7 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Programming</title>
+  <title>How To Use Apache&#39;s Proxy for Drupal&#39;s Files Directory</title>
   <meta name="author" content="" />
 
   
@@ -56,9 +56,9 @@
   <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Domenic Santangelo">
 
   
-  <meta property="og:title" content="Programming" />
+  <meta property="og:title" content="How To Use Apache&#39;s Proxy for Drupal&#39;s Files Directory" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="/categories/programming//" />
+  <meta property="og:url" content="/blog/2010/12/01/how-to-use-apaches-proxy-drupals-files-directory//" />
   <meta property="og:image" content="img/logo.png" />
 
 </head>
@@ -77,9 +77,9 @@
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand home" href="">
-                    <img src="img/logo.png" alt="Programming logo" class="hidden-xs hidden-sm">
-                    <img src="img/logo-small.png" alt="Programming logo" class="visible-xs visible-sm">
-                    <span class="sr-only">Programming - go to homepage</span>
+                    <img src="img/logo.png" alt="How To Use Apache&#39;s Proxy for Drupal&#39;s Files Directory logo" class="hidden-xs hidden-sm">
+                    <img src="img/logo-small.png" alt="How To Use Apache&#39;s Proxy for Drupal&#39;s Files Directory logo" class="visible-xs visible-sm">
+                    <span class="sr-only">How To Use Apache&#39;s Proxy for Drupal&#39;s Files Directory - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -140,7 +140,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Programming</h1>
+                <h1>How To Use Apache&#39;s Proxy for Drupal&#39;s Files Directory</h1>
             </div>
         </div>
     </div>
@@ -149,129 +149,41 @@
 
         <div id="content">
             <div class="container">
+
                 <div class="row">
+
                     
 
-                    <div class="col-md-9" id="blog-listing-medium">
+                    <div class="col-md-9" id="blog-post">
 
+                        <p class="text-muted text-uppercase mb-small text-right">December 1, 2010</p>
+
+                        <div id="post-content">
+                          <p>Drupal&rsquo;s files directory can get enormous, and it&rsquo;s best not to keep it in version control. Here&rsquo;s a way to use Apache&rsquo;s proxy module to point your local environment directly to your dev/live site&rsquo;s files directory so you don&rsquo;t have to download it.</p>
+
+<p>In your httpd.conf:</p>
+
+<pre><code>ProxyRequests On
+ProxyVia On
+ 
+&lt;Proxy *&gt;
+    Order deny,allow
+    Deny from all
+    Allow from localhost
+    Allow from all
+&lt;/Proxy&gt;
+ 
+&lt;Location /sites/default/files/imagecache/&gt;
+   ProxyPass http://dev.yoursite.com/sites/default/files/imagecache/
+&lt;/Location&gt;
+</code></pre>
+
+<p>Of course you&rsquo;ll want to tailor it to your needs; maybe you want only one imagecache preset proxied, or just one directory specifically on one local host. Either way, this recipe will get you started. Hope it helps!</p>
+
+                        </div>
                         
                         
-                        <section class="post">
-                            <div class="row">
-                                <div class="col-md-4">
-                                  <div class="image">
-                                      <a href="/blog/2017/07/22/building-the-magento-imagine-2015-site/">
-                                          
-                                          <img src="img/banners/imagine2015.jpg" class="img-responsive" alt="">
-                                          
-                                      </a>
-                                  </div>
-                                </div>
-                                <div class="col-md-8">
-                                    <h2><a href="/blog/2017/07/22/building-the-magento-imagine-2015-site/">Building The Magento Imagine 2015 Site</a></h2>
-                                    <div class="clearfix">
-                                        <p class="author-category">
-                                          
-                                          
-                                          
-                                          in <a href="categories/programming">programming</a>
-                                          
-                                          
 
-                                        </p>
-                                        <p class="date-comments">
-                                            <a href="/blog/2017/07/22/building-the-magento-imagine-2015-site/"><i class="fa fa-calendar-o"></i> July 22, 2017</a>
-                                        </p>
-                                    </div>
-                                    <p class="intro">How we built the Imagine 2015 site Originally published Feb 26, 2015 on Medium.
-Imagine is Magento and eBay Enterprise’s premier eCommerce event held every year in Las Vegas. It’s an incredible event that many eCommerce merchants, consultants and developers look forward to year after year. At Imagine, people network with merchants, partners, developers, digital industry experts, and open source enthusiasts. We put a great deal of time and effort into making Imagine a spectacular and useful event, and an event of this magnitude needs a website to match.</p>
-                                    <p class="read-more"><a href="/blog/2017/07/22/building-the-magento-imagine-2015-site/" class="btn btn-template-main">Continue reading</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </section>
-                        
-                        <section class="post">
-                            <div class="row">
-                                <div class="col-md-4">
-                                  <div class="image">
-                                      <a href="/blog/2016/03/28/use-marketo-forms-2-0-api-to-populate-fields/">
-                                          
-                                          <img src="img/banners/marketo.jpg" class="img-responsive" alt="">
-                                          
-                                      </a>
-                                  </div>
-                                </div>
-                                <div class="col-md-8">
-                                    <h2><a href="/blog/2016/03/28/use-marketo-forms-2-0-api-to-populate-fields/">Use Marketo Forms 2.0 API To Populate Fields</a></h2>
-                                    <div class="clearfix">
-                                        <p class="author-category">
-                                          
-                                          
-                                          
-                                          in <a href="categories/programming">programming</a>
-                                          
-                                          
-
-                                        </p>
-                                        <p class="date-comments">
-                                            <a href="/blog/2016/03/28/use-marketo-forms-2-0-api-to-populate-fields/"><i class="fa fa-calendar-o"></i> March 28, 2016</a>
-                                        </p>
-                                    </div>
-                                    <p class="intro">Occasionally we want to populate Marketo fields with values we calculate on our side. Perhaps advanced UTM handling, custom Salesforce fields, etc. The Marketo Forms 2.0 API makes this pretty easy. Most of what you need to know lives on this documentation page, but I will give you a couple tips you might not otherwise know.
-You can populate UTM codes automatically&hellip; &hellip;but think it through. You can have Marketo autopopulate your utm values from the query string in the URL, but what if a user navigates to another page?</p>
-                                    <p class="read-more"><a href="/blog/2016/03/28/use-marketo-forms-2-0-api-to-populate-fields/" class="btn btn-template-main">Continue reading</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </section>
-                        
-                        <section class="post">
-                            <div class="row">
-                                <div class="col-md-4">
-                                  <div class="image">
-                                      <a href="/blog/2010/12/01/how-to-use-apaches-proxy-drupals-files-directory/">
-                                          
-                                          <img src="img/banners/db.jpg" class="img-responsive" alt="">
-                                          
-                                      </a>
-                                  </div>
-                                </div>
-                                <div class="col-md-8">
-                                    <h2><a href="/blog/2010/12/01/how-to-use-apaches-proxy-drupals-files-directory/">How To Use Apache&#39;s Proxy for Drupal&#39;s Files Directory</a></h2>
-                                    <div class="clearfix">
-                                        <p class="author-category">
-                                          
-                                          
-                                          
-                                          in <a href="categories/programming">programming</a>
-                                          
-                                          
-
-                                        </p>
-                                        <p class="date-comments">
-                                            <a href="/blog/2010/12/01/how-to-use-apaches-proxy-drupals-files-directory/"><i class="fa fa-calendar-o"></i> December 1, 2010</a>
-                                        </p>
-                                    </div>
-                                    <p class="intro">Drupal&rsquo;s files directory can get enormous, and it&rsquo;s best not to keep it in version control. Here&rsquo;s a way to use Apache&rsquo;s proxy module to point your local environment directly to your dev/live site&rsquo;s files directory so you don&rsquo;t have to download it.
-In your httpd.conf:
-ProxyRequests On ProxyVia On &lt;Proxy *&gt; Order deny,allow Deny from all Allow from localhost Allow from all &lt;/Proxy&gt; &lt;Location /sites/default/files/imagecache/&gt; ProxyPass http://dev.yoursite.com/sites/default/files/imagecache/ &lt;/Location&gt;  Of course you&rsquo;ll want to tailor it to your needs; maybe you want only one imagecache preset proxied, or just one directory specifically on one local host.</p>
-                                    <p class="read-more"><a href="/blog/2010/12/01/how-to-use-apaches-proxy-drupals-files-directory/" class="btn btn-template-main">Continue reading</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </section>
-                        
-
-                        <ul class="pager">
-                            
-                            <li class="previous disabled"><a href="#">&larr; Newer</a></li>
-                            
-
-                            
-                            <li class="next disabled"><a href="#">Older &rarr;</a></li>
-                            
-                        </ul>
                     </div>
                     
 
@@ -380,6 +292,7 @@ ProxyRequests On ProxyVia On &lt;Proxy *&gt; Order deny,allow Deny from all Allo
 
                 </div>
                 
+
             </div>
             
         </div>

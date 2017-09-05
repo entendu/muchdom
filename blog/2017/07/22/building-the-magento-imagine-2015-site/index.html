@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Building The Magento Imagine 2015 Site</title>
+  <meta name="author" content="" />
+
+  
+  <meta name="keywords" content="engineering, silicon valley, programming">	
+  
+
+  
+  <meta name="description" content="Domenic Santangelo is a Silicon Valley-hardened engineering leader.">	
+  
+
+  <meta name="generator" content="Hugo 0.25.1" />
+
+  <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
+
+  
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  
+  <link href="css/animate.css" rel="stylesheet">
+
+  
+  
+    <link href="css/style.default.css" rel="stylesheet" id="theme-stylesheet">
+  
+
+
+  
+  <link href="css/custom.css" rel="stylesheet">
+
+  
+  
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+  
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+  
+
+  <link href="css/owl.carousel.css" rel="stylesheet">
+  <link href="css/owl.theme.css" rel="stylesheet">
+
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Domenic Santangelo">
+
+  
+  <meta property="og:title" content="Building The Magento Imagine 2015 Site" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/blog/2017/07/22/building-the-magento-imagine-2015-site//" />
+  <meta property="og:image" content="img/logo.png" />
+
+</head>
+
+
+  <body>
+
+    <div id="all">
+
+        <header>
+
+          <div class="navbar-affixed-top" data-spy="affix" data-offset-top="200">
+
+    <div class="navbar navbar-default yamm" role="navigation" id="navbar">
+
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand home" href="">
+                    <img src="img/logo.png" alt="Building The Magento Imagine 2015 Site logo" class="hidden-xs hidden-sm">
+                    <img src="img/logo-small.png" alt="Building The Magento Imagine 2015 Site logo" class="visible-xs visible-sm">
+                    <span class="sr-only">Building The Magento Imagine 2015 Site - go to homepage</span>
+                </a>
+                <div class="navbar-buttons">
+                    <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
+                      <span class="sr-only">Toggle Navigation</span>
+                        <i class="fa fa-align-justify"></i>
+                    </button>
+                </div>
+            </div>
+            
+
+            <div class="navbar-collapse collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/">Home</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/blog/">Blog</a>
+                    
+                  </li>
+                  
+                </ul>
+            </div>
+            
+
+            <div class="collapse clearfix" id="search">
+
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+
+                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
+
+                </span>
+                    </div>
+                </form>
+
+            </div>
+            
+
+        </div>
+    </div>
+    
+
+</div>
+
+
+
+
+        </header>
+
+        <div id="heading-breadcrumbs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Building The Magento Imagine 2015 Site</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <div id="content">
+            <div class="container">
+
+                <div class="row">
+
+                    
+
+                    <div class="col-md-9" id="blog-post">
+
+                        <p class="text-muted text-uppercase mb-small text-right">July 22, 2017</p>
+
+                        <div id="post-content">
+                          
+
+<h1 id="how-we-built-the-imagine-2015-site">How we built the Imagine 2015 site</h1>
+
+<p><em>Originally published Feb 26, 2015 on <a href="https://medium.com/@entendu/how-we-built-the-imagine-2015-site-ea35d1c983c7">Medium</a>.</em></p>
+
+<p>Imagine is Magento and eBay Enterprise’s premier eCommerce event held every year in Las Vegas. It’s an incredible event that many eCommerce merchants, consultants and developers look forward to year after year. At Imagine, people network with merchants, partners, developers, digital industry experts, and open source enthusiasts. We put a great deal of time and effort into making Imagine a spectacular and useful event, and an event of this magnitude needs a website to match.</p>
+
+<p>The Imagine site is where attendees and prospective attendees go to get excited. It’s where we show off who’s speaking this year (last year Malcolm Gladwell was the Keynote speaker), who the sponsors are, and what companies were represented last year. Naturally you can sign up for email updates and buy your tickets from the site as well.</p>
+
+<h2 id="business-needs">Business needs</h2>
+
+<p>Obviously we begun by determining the business needs for the Imagine site. I’m not going to go too deep into this part except to say that adding content ad-hoc had been a major pain point in years past. Since Imagine is an event, site content changes at a moment’s notice — new speakers are confirmed, new sponsors sign contracts, agenda items are finalized. Our solution has to support the fast-moving nature of an event of this nature. Our previous sites (&lt;= Imagine 2014) had been built on WordPress, which is a fine selection, but it happened to be that it was built so quickly that not a lot of effort had been put into future-proofing content management.</p>
+
+<p>On a practical level, that meant that some content changes were simple for the Imagine team to do in the WordPress backend, while others required a developer to write HTML, or worse, make a code change and push it live. More than any other requirement, the ability for the non-technical Imagine team to make changes to the content of the live site was the primary goal.</p>
+
+<h2 id="tech-stack">Tech stack</h2>
+
+<p>We decided on Drupal as the CMS pretty early on. We had recently finished replatforming Magento’s main website to Drupal with great success and were eager to build on that momentum. Of course the CMS is only a part of the larger landscape; in the process of building the site, we used all the following tools:</p>
+
+<ul>
+<li>Drupal 7 for the CMS</li>
+<li>Bootstrap 3 (thanks to the Drupal project integrating Bootstrap)</li>
+<li>LESS (with the LESS module for Drupal + lessphp)</li>
+<li>Jenkins + bash scripts + Drush for continuous integration</li>
+<li>Github Enterprise (eBay’s internal scm)</li>
+<li>Slack to keep teams connected. Jenkins &amp; Github report into our Slack channels during builds.</li>
+</ul>
+
+<h2 id="design-review">Design review</h2>
+
+<p>During the Magento.com site redesign, the engineering and design teams discovered something wonderful: if these two teams work together rather than in silos, we all build faster and the final product is 1,000x more awesome. So we continued our methodology of having regular design review checkins, where engineering could ask questions, provide &ldquo;doability&rdquo; estimates, and give feedback.</p>
+
+<p><center>
+<img src="/img/banners/imagine2015.jpg" alt="Imagine 2015 prototype design" /></p>
+
+<p><em>An early design for the Imagine 2015 site.</em>
+</center></p>
+
+<p>For engineering, that meant we could strategize as a team as to how we thought we’d build the site out. The design above, for example, made us realize early on in the process that we’d want to use SVGs and other retina-ready graphics as much as possible. It also revealed some obvious mobile-friendly responsive moves we could make.</p>
+
+<p>It was also interesting to see where engineering and design agreed without prior knowledge — pretty much everyone who saw the transparent fins around the circular cutout in the final design had the same thought of, “dude, those HAVE to rotate like a targeting reticle in Halo!”</p>
+
+<p>Our design team took it a step further and actually created working mockups for how they envisioned the site working on mobile devices. This gave engineering crucial context around how to best build the templates from the ground up, keeping mobile in mind.</p>
+
+<p>Once the design was finalized and approved, it was up to us to do the fun part (well, what engineers think is the fun part, at least): taking a bunch of Photoshop files and turning them into a real website.</p>
+
+<h2 id="drupal-methodology">Drupal methodology</h2>
+
+<p>Building a new site is fun, but Imagine 2015 was a little more than a new site. We had to take the following conditions into account:</p>
+
+<ul>
+<li>The pre-existing “Save the Date” site was being used for content entry (sponsors in particular). We can’t start from scratch and blow out that content.</li>
+<li>A team of 3 engineers will be doing major construction, including database schema changes. They need to integrate their changes with each other.</li>
+<li>We’ll be doing massive rebuilds of the theme layer (including an upgrade from Bootstrap 2 → Bootstrap 3), while preserving all content.</li>
+</ul>
+
+<p>The best way to satisfy these conditions in Drupal is what I call the “Update hook + Features + CI” method. It’s a method I’ve used since the early days of Drupal 5 and it goes like this:</p>
+
+<ol>
+<li>Give yourself a baseline of the current Prod DB and code.</li>
+<li>Create a module that contains utility functions (a function to revert features, to install modules, to modify values in database tables, etc).</li>
+<li>(optional) Create a <a href="https://www.drupal.org/project/features">Feature</a> for a related set of changes.</li>
+<li>Codify your changes (or enable your Feature) in <a href="https://api.drupal.org/api/drupal/modules%21system%21system.api.php/function/hook_update_N/7">update hooks</a> that live in that utility module from step 2.</li>
+</ol>
+
+<p>As a simple example, let’s say you’re adding a new <a href="https://www.drupal.org/node/21947">content type</a>. You can export that content type as a Feature, and then add an update hook that enables that Feature. So when you deploy your code and run <a href="https://www.drupal.org/upgrade/running-update-php">update.php</a> or <code>updatedb</code>, that new content type is automatically installed.</p>
+
+<p>Practically speaking, this means that all your changes, no matter how simple or complex, will automatically take shape when your code is deployed. We continually run these hooks against a snapshot of production in our CI environment, so we know exactly what to expect when our code is deployed.</p>
+
+<h2 id="update-hooks-ci-slack-winning">Update hooks + CI + Slack == winning</h2>
+
+<p><img src="/img/blog/imagine/slack.png" alt="Slack!" /></p>
+
+<p><center><em>Slack integration means we know what’s up with development <sup>24</sup>&frasl;<sub>7</sub></em></center></p>
+
+<p>The best part about our CI setup is all the integrations. Github Enterprise tells Jenkins when there’s code to build, Jenkins talks to the servers and pulls down code, and then we get notified in Slack when there’s something new to look at, complete with a link to the dev environment. It is absolutely worth its own blog post, and if you’re not doing it yet I encourage you to explore it.</p>
+
+<hr />
+
+<h2 id="building-an-incredible-front-page-in-drupal">Building an incredible front page in Drupal</h2>
+
+<p>For our initial launch, the front page was by far the most complex single page on the site. One of the key business needs however was that it be super simple to manage the content. We did this by creating the Front Page as its own content type, and using a variety of Drupal modules to make the sections very clear and easy to manage:</p>
+
+<p><img src="/img/blog/imagine/fp.png" alt="front page" /></p>
+
+<p><center><em>Mapping content type fields to front page sections</em></center></p>
+
+<p>Some of the sections of that page are built with fields right in the content type, and others (like Sponsors and Speakers) are built by embedding Views into the node.</p>
+
+<p>Some of the more interesting modules we used on the front page are:</p>
+
+<ul>
+<li><a href="https://www.drupal.org/project/field_group">field_group</a> — to create the vertically tabbed interface you see there on the edit page</li>
+<li><a href="https://www.drupal.org/project/field_collection">field_collection</a> (and its brother <a href="https://www.drupal.org/project/field_collection_deploy">field_collection_deploy</a>) — to create “add more”-able groups of fields. This is really useful for carousels which may have several fields (background image, copy, call to action…) per slide, and an arbitrary number of slides per carousel.</li>
+</ul>
+
+<p><img src="/img/blog/imagine/fc.png" alt="field collections" /></p>
+
+<p><center><em>Field groups + Field collections for ultimate content control</em></center></p>
+
+<ul>
+<li><a href="https://www.drupal.org/project/viewfield">viewfield</a> — to drop Views directly in the node with no special embedding code needed</li>
+<li><a href="https://www.drupal.org/project/views_bootstrap">views_bootstrap</a> — to get Views using Bootstrap 3 classes.</li>
+</ul>
+
+<h2 id="responsive-design">Responsive design</h2>
+
+<p>Using Bootstrap 3 gave us a huge leg-up in implementing responsive design. Since our design team provided mockups, we were able to theme the front page fields with mobile in mind. Go ahead, open the site on your phone or tablet!</p>
+
+<h2 id="svg-stands-for-something-very-good">SVG stands for “Something Very Good”</h2>
+
+<p>Ok, it actually means <a href="http://en.wikipedia.org/wiki/Scalable_Vector_Graphics">Scalable Vector Graphics</a>. On a high-dpi screen, non-photo graphic assets tend to look chunky and not-so-great, so we knew right away that we wanted to use SVGs for elements where it makes sense.</p>
+
+<p><img src="/img/blog/imagine/svg.png" alt="svg" /></p>
+
+<p><center><em>Wynn Las Vegas logo in SVG (left) and PNG (right) as displayed on a hi-dpi screen</em></center></p>
+
+<p>We use a slightly customized version of <a href="http://benhowdle.im/svgeezy/">SVGeezy</a> on the site to detect browser support. The cool thing about SVGeezy is that it will automatically swap in your fallback images if the browser lacks SVG support, and we hacked SVGeezy to add a <code>no-svg</code> class to the body in that case.</p>
+
+<p><img src="/img/blog/imagine/fins.gif" class="left" width=300 /></p>
+
+<p>The other way-cool thing we did was animate some portions of the header.</p>
+
+<p>Pretty much everyone agreed that the “fins” in the design needed to animate, because what looks cooler than that? But there were some major hurdles to getting this working correctly. Aside from just getting the elements animated in the first place, we had to worry about what it looked like on all kinds of devices on different platforms, what happens on mobile, and so forth. The simple answer would be to render a video, but there are a couple problems with that: 1) the fins actually overlap the following “Agenda” section, 2) a video that looks good with that much detail and motion will be HUGE, and 3) the team wanted the option to swap out background pictures ad-hoc. The answer in my mind was to build an animated SVG and overlay it on top of the slideshow behind.</p>
+
+<p><img src="/img/blog/imagine/notes.png" class="right" width=300 /></p>
+
+<p>To further complicate matters, the slideshow images needed to be full cover, which is impossible with <img> tags — they have to be background images. Of course you can’t fade background images in and out, so there had to be multiple divs, absolutely positioned, that held only background images, and a little javascript magic to swap between them smoothly.</p>
+
+<p>Next the fun part, the SVG overlay. The SVG on the front page actually embeds the orange PNG, then draws the fins. The <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Element/animateTransform">animation itself</a> is pretty straightforward once you calculate the rotation point (the center of the circle cutout). Our designers generated the SVG for me, then I grouped the fins and gave each group a different transform value (clockwise, counterclockwise, slower, faster) to add visual interest.</p>
+
+<p>I put the SVG in an absolutely positioned div to take it out of the document flow, then sized it correctly so it would fill up the hero section and still overlap the Agenda section. I messed with Z-index so that it was behind the hero text, but above the Agenda section. So far so good.</p>
+
+<p>And then I opened the page in Safari and Firefox.</p>
+
+<p>Firefox was spinning my CPU off the charts and Safari didn’t show the PNG that was linked in the SVG at all. I’m going to get right to the solution and give you the benefit of my hours of debugging — if you want an animated SVG to work everywhere:</p>
+
+<ol>
+<li>Remove all the header junk that Illustrator adds to the top of the SVG file (Safari and FF choke on it),</li>
+<li>Get the SVG as close to your final on-screen size as possible (FF takes a huge performance hit while scaling), and</li>
+<li>Embed the SVG directly in the page. Don’t use <code>&lt;img&gt;</code> or make it a background in your CSS, just dump all the code right there in the page. It solves all sorts of problems.</li>
+</ol>
+
+<p>Ultimately Firefox is just slow with SVG animations, it’s a known issue (see <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=844664">here</a> and <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=722090">here</a>). I think we squeezed out as much as we could using native tools (vs. a toolkit like Greensock).</p>
+
+<p>Internet Explorer of course was another issue, but thankfully someone else did the work for us with the wonderful <a href="https://leunen.me/fakesmile/">FakeSmile</a> library. We dropped that in and boom, animations in IE, too!</p>
+
+<h2 id="there-s-always-more">There’s always more</h2>
+
+<p>Originally I promised to do a writeup on the Agenda section, but I never got around to it.</p>
+
+                        </div>
+                        
+                        
+
+                    </div>
+                    
+
+                    
+
+                    
+
+                    <div class="col-md-3">
+
+                        
+
+                        
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+      <h3 class="panel-title">Search</h3>
+    </div>
+
+    <div class="panel-body">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" role="search">
+            <div class="input-group">
+                <input type="search" name="q" results="0" class="form-control" placeholder="Search">
+                <input type="hidden" name="q" value="site:">
+                <span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
+                </span>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+      <h3 class="panel-title">Categories</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="nav nav-pills nav-stacked">
+            
+            <li><a href="categories/programming">programming (3)</a>
+            </li>
+            
+            <li><a href="categories/project-management">project-management (1)</a>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<div class="panel sidebar-menu">
+    <div class="panel-heading">
+      <h3 class="panel-title">Tags</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="tag-cloud">
+            
+            <li><a href="tags/agile"><i class="fa fa-tags"></i> agile</a>
+            </li>
+            
+            <li><a href="tags/apache"><i class="fa fa-tags"></i> apache</a>
+            </li>
+            
+            <li><a href="tags/drupal"><i class="fa fa-tags"></i> drupal</a>
+            </li>
+            
+            <li><a href="tags/magento"><i class="fa fa-tags"></i> magento</a>
+            </li>
+            
+            <li><a href="tags/marketing"><i class="fa fa-tags"></i> marketing</a>
+            </li>
+            
+            <li><a href="tags/marketo"><i class="fa fa-tags"></i> marketo</a>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+
+
+
+
+                        
+
+                    </div>
+                    
+
+                    
+
+                </div>
+                
+
+            </div>
+            
+        </div>
+        
+
+        <footer id="footer">
+    <div class="container">
+
+        
+        <div class="col-md-4 col-sm-6">
+            <h4>About me</h4>
+
+            Domenic Santangelo is a technology leader with an engineering background. With experience in large enterprises, small startups, and places in-between, Domenic is a dynamic and engaging addition to any engineering or product organization.
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        
+        
+
+        <div class="col-md-4 col-sm-6">
+
+             
+            <h4>Recent posts</h4>
+
+            <div class="blog-entries">
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="/blog/2017/09/05/new-blog/">
+                          
+                            <img src="img/banners/hugo.png" class="img-responsive" alt="">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="/blog/2017/09/05/new-blog/">New Blog</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="/blog/2017/07/22/building-the-magento-imagine-2015-site/">
+                          
+                            <img src="img/banners/imagine2015.jpg" class="img-responsive" alt="">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="/blog/2017/07/22/building-the-magento-imagine-2015-site/">Building The Magento Imagine 2015 Site</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="/blog/2016/03/28/use-marketo-forms-2-0-api-to-populate-fields/">
+                          
+                            <img src="img/banners/marketo.jpg" class="img-responsive" alt="">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="/blog/2016/03/28/use-marketo-forms-2-0-api-to-populate-fields/">Use Marketo Forms 2.0 API To Populate Fields</a></h5>
+                    </div>
+                </div>
+                
+            </div>
+
+            <hr class="hidden-md hidden-lg">
+             
+
+        </div>
+        
+
+        
+
+    </div>
+    
+</footer>
+
+
+
+
+
+
+
+<div id="copyright">
+    <div class="container">
+        <div class="col-md-12">
+            
+            <p class="pull-left">Copyright (c) 2017, Domenic Santangelo; all rights reserved.</p>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    </div>
+    
+
+    
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-105970136-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
+
+<script src="//maps.googleapis.com/maps/api/js?v=3.exp"></script>
+
+<script src="js/hpneo.gmaps.js"></script>
+<script src="js/gmaps.init.js"></script>
+<script src="js/front.js"></script>
+
+
+<script src="js/owl.carousel.min.js"></script>
+
+
+  </body>
+</html>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Apache on Domenic Santangelo</title>
+    <link>/tags/apache/</link>
+    <description>Recent content in Apache on Domenic Santangelo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2017, Domenic Santangelo; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 01 Dec 2010 21:09:47 -0700</lastBuildDate>
+    
+	<atom:link href="/tags/apache/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How To Use Apache&#39;s Proxy for Drupal&#39;s Files Directory</title>
+      <link>/blog/2010/12/01/how-to-use-apaches-proxy-drupals-files-directory/</link>
+      <pubDate>Wed, 01 Dec 2010 21:09:47 -0700</pubDate>
+      
+      <guid>/blog/2010/12/01/how-to-use-apaches-proxy-drupals-files-directory/</guid>
+      <description>Drupal&amp;rsquo;s files directory can get enormous, and it&amp;rsquo;s best not to keep it in version control. Here&amp;rsquo;s a way to use Apache&amp;rsquo;s proxy module to point your local environment directly to your dev/live site&amp;rsquo;s files directory so you don&amp;rsquo;t have to download it.
+In your httpd.conf:
+ProxyRequests On ProxyVia On &amp;lt;Proxy *&amp;gt; Order deny,allow Deny from all Allow from localhost Allow from all &amp;lt;/Proxy&amp;gt; &amp;lt;Location /sites/default/files/imagecache/&amp;gt; ProxyPass http://dev.yoursite.com/sites/default/files/imagecache/ &amp;lt;/Location&amp;gt;  Of course you&amp;rsquo;ll want to tailor it to your needs; maybe you want only one imagecache preset proxied, or just one directory specifically on one local host.</description>
+    </item>
+    
+  </channel>
+</rss>
