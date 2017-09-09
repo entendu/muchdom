@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Magento on Domenic Santangelo</title>
-    <link>/tags/magento/</link>
+    <link>http://muchdom.com/tags/magento/</link>
     <description>Recent content in Magento on Domenic Santangelo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2017, Domenic Santangelo; all rights reserved.</copyright>
     <lastBuildDate>Sat, 22 Jul 2017 20:05:38 -0700</lastBuildDate>
     
-	<atom:link href="/tags/magento/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://muchdom.com/tags/magento/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Building The Magento Imagine 2015 Site</title>
-      <link>/blog/2017/07/22/building-the-magento-imagine-2015-site/</link>
+      <link>http://muchdom.com/blog/2017/07/22/building-the-magento-imagine-2015-site/</link>
       <pubDate>Sat, 22 Jul 2017 20:05:38 -0700</pubDate>
       
-      <guid>/blog/2017/07/22/building-the-magento-imagine-2015-site/</guid>
+      <guid>http://muchdom.com/blog/2017/07/22/building-the-magento-imagine-2015-site/</guid>
       <description>How we built the Imagine 2015 site Originally published Feb 26, 2015 on Medium.
 Imagine is Magento and eBay Enterprise’s premier eCommerce event held every year in Las Vegas. It’s an incredible event that many eCommerce merchants, consultants and developers look forward to year after year. At Imagine, people network with merchants, partners, developers, digital industry experts, and open source enthusiasts. We put a great deal of time and effort into making Imagine a spectacular and useful event, and an event of this magnitude needs a website to match.</description>
     </item>

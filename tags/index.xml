@@ -2,67 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Domenic Santangelo</title>
-    <link>/tags/</link>
+    <link>http://muchdom.com/tags/</link>
     <description>Recent content in Tags on Domenic Santangelo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2017, Domenic Santangelo; all rights reserved.</copyright>
     <lastBuildDate>Fri, 18 Dec 2015 21:32:51 -0700</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://muchdom.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Agile</title>
-      <link>/tags/agile/</link>
+      <link>http://muchdom.com/tags/agile/</link>
       <pubDate>Fri, 18 Dec 2015 21:32:51 -0700</pubDate>
       
-      <guid>/tags/agile/</guid>
+      <guid>http://muchdom.com/tags/agile/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Apache</title>
-      <link>/tags/apache/</link>
+      <link>http://muchdom.com/tags/apache/</link>
       <pubDate>Wed, 01 Dec 2010 21:09:47 -0700</pubDate>
       
-      <guid>/tags/apache/</guid>
+      <guid>http://muchdom.com/tags/apache/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Drupal</title>
-      <link>/tags/drupal/</link>
+      <link>http://muchdom.com/tags/drupal/</link>
       <pubDate>Sat, 22 Jul 2017 20:05:38 -0700</pubDate>
       
-      <guid>/tags/drupal/</guid>
+      <guid>http://muchdom.com/tags/drupal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Magento</title>
-      <link>/tags/magento/</link>
+      <link>http://muchdom.com/tags/magento/</link>
       <pubDate>Sat, 22 Jul 2017 20:05:38 -0700</pubDate>
       
-      <guid>/tags/magento/</guid>
+      <guid>http://muchdom.com/tags/magento/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Marketing</title>
-      <link>/tags/marketing/</link>
+      <link>http://muchdom.com/tags/marketing/</link>
       <pubDate>Mon, 28 Mar 2016 21:21:00 -0700</pubDate>
       
-      <guid>/tags/marketing/</guid>
+      <guid>http://muchdom.com/tags/marketing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Marketo</title>
-      <link>/tags/marketo/</link>
+      <link>http://muchdom.com/tags/marketo/</link>
       <pubDate>Mon, 28 Mar 2016 21:21:00 -0700</pubDate>
       
-      <guid>/tags/marketo/</guid>
+      <guid>http://muchdom.com/tags/marketo/</guid>
       <description></description>
     </item>
     

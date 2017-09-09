@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Project Management on Domenic Santangelo</title>
-    <link>/categories/project-management/</link>
+    <link>http://muchdom.com/categories/project-management/</link>
     <description>Recent content in Project Management on Domenic Santangelo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2017, Domenic Santangelo; all rights reserved.</copyright>
     <lastBuildDate>Fri, 18 Dec 2015 21:32:51 -0700</lastBuildDate>
     
-	<atom:link href="/categories/project-management/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://muchdom.com/categories/project-management/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Interleaving Ad-hoc Tasks in a Scrum Team: Fastpass</title>
-      <link>/blog/2015/12/18/interleaving-ad-hoc-tasks-in-a-scrum-team-fast-pass/</link>
+      <link>http://muchdom.com/blog/2015/12/18/interleaving-ad-hoc-tasks-in-a-scrum-team-fast-pass/</link>
       <pubDate>Fri, 18 Dec 2015 21:32:51 -0700</pubDate>
       
-      <guid>/blog/2015/12/18/interleaving-ad-hoc-tasks-in-a-scrum-team-fast-pass/</guid>
+      <guid>http://muchdom.com/blog/2015/12/18/interleaving-ad-hoc-tasks-in-a-scrum-team-fast-pass/</guid>
       <description>In theory, full agile/scrum with two-week sprints is a major boon for everyone. Engineering teams agree to what exactly is expected of them, and the business agrees on when to expect their asks to be complete. Reality is of course never quite that simple.
 One of the core tenets of scrum is that you don&amp;rsquo;t accept a task into your sprint unless it is fully spec&amp;rsquo;d and completable. For instance, if you get a task to change the text color on the home page, but the new color is not defined, you can&amp;rsquo;t accept that task into your sprint because without that color the task is impossible to finish.</description>
     </item>
