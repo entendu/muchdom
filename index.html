@@ -699,6 +699,16 @@ ga('send', 'pageview');
   const { Chirp } = ChirpConnectSDK;
 url = new URL(window.location.href);
 
+  if(typeof AudioContext != "undefined" || typeof webkitAudioContext != "undefined") {
+   var resumeAudio = function() {
+      if(typeof g_WebAudioContext == "undefined" || g_WebAudioContext == null) return;
+      if(g_WebAudioContext.state == "suspended") g_WebAudioContext.resume();
+      document.removeEventListener("click", resumeAudio);
+     console.log('resumed audio')
+   };
+   document.addEventListener("click", resumeAudio);
+}
+  
 if (url.searchParams.get('send')) {
   Chirp({
     key: '7999C7d1f416d584352BbB58E',
