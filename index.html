@@ -694,46 +694,5 @@ ga('send', 'pageview');
 
 <script src="http://muchdom.com/js/owl.carousel.min.js"></script>
 
-<script src="https://public.chirp.io/wasm/latest/chirp-connect.js"></script>
-<script>
-  const { Chirp } = ChirpConnectSDK;
-url = new URL(window.location.href);
-
-  if(typeof AudioContext != "undefined" || typeof webkitAudioContext != "undefined") {
-   var resumeAudio = function() {
-      if(typeof g_WebAudioContext == "undefined" || g_WebAudioContext == null) return;
-      if(g_WebAudioContext.state == "suspended") g_WebAudioContext.resume();
-      document.removeEventListener("click", resumeAudio);
-     console.log('resumed audio')
-   };
-   document.addEventListener("click", resumeAudio);
-}
-  
-if (url.searchParams.get('send')) {
-  Chirp({
-    key: '7999C7d1f416d584352BbB58E',
-    onStateChanged: (previous, current) => {
-      console.log(current)
-    }
-  }).then(sdk => {
-    sdk.send('foobar')
-  }).catch(console.error)
-}
-
-if (url.searchParams.get('rec')) {
-  Chirp({
-    key: '7999C7d1f416d584352BbB58E',
-    onStateChanged: (previous, current) => {
-      console.log(current)
-    },
-    onReceived: data => {
-      if (data.length > 0) {
-        alert(data)
-      }
-    }
-  }).catch(console.error)
-}
-    </script>
-
   </body>
 </html>
